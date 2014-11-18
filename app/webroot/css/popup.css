@@ -1,0 +1,7 @@
+#fade{display:none;background:#000;position:fixed;left:0;top:0;width:100%;height:100%;opacity:.80;z-index:9999}
+.popup_block{display:none;background:#fff;border:5px solid #ddd;font-size:1.2em;z-index:99999;-webkit-box-shadow:0 0 20px #000;-moz-box-shadow:0 0 20px #000;box-shadow:0 0 20px #000;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;padding:0}
+img.btn_close{float:right;margin:12px 4px 0 0}
+.popup p{margin:5px 0;padding:5px 10px}
+.dialogTitre{border-radius:4px;font-weight:700;padding:.8em 1em}
+#previsualisation .close{opacity:1}
+*html #fade,*html .popup_block{position:absolute}

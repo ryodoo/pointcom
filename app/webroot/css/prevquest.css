@@ -1,0 +1,183 @@
+#QuestionEditForm {
+    width: 745px;  
+    height: auto;  
+    clear: both;  margin: auto;
+    min-height: 300px;
+    color: #636262 !important;
+}
+.repense {
+    width: 414px;
+    float: left !important;
+    text-align: left !important;
+    margin: 0px !important;
+    margin-left: 42px !important;
+}
+.repense b {
+    font-size: 17px;
+    margin-top: 9px;
+    float: left;
+    margin-right: 8px;
+    font-weight: normal;
+}
+.input {
+    min-width: 99%;
+    float: left;
+    margin: auto;
+    height: auto;
+    min-height: 100px;
+    width: auto;
+    margin-top: 19px;
+    padding: 0px;
+    border-radius: 7px;
+    padding: 30px 21px;
+    background: rgba(187, 223, 63, 0.31);  width: 158px;  
+    color: #636262 !important;
+}
+label {
+    float: left;
+    min-width: 82%;
+    width: auto;
+    margin-top: 4px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #727272 !important;
+}
+/*input {
+    float:  !important;
+}*/
+input[type="radio"] {
+    margin: 0px;
+    margin-top: 11px !important;
+    margin-left: 0px !important;
+    width: 18px;
+    height: 18px;
+    clear: none !important;
+    float: left;
+}
+input[type="checkbox"] {
+    margin-top: 12px !important;
+    height: 18px;
+    width: 18px;
+    float: left;
+}
+
+.submit {
+    border: 0;  clear: both;  width: 100%;  margin-top: 6px;  margin-bottom: 20px;  height: auto;
+    padding: .5em;  vertical-align: text-top;
+}
+
+input[type="submit"]{
+	background-color: rgba(255, 0, 0, 0);
+	padding: 6px 23px;
+	margin-bottom: 20px;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px !important;
+	text-decoration:none;
+	color:#fff;
+	border: solid 5px #E5E2E2;
+	background-image: linear-gradient(bottom, rgb(85, 137, 2) 0%,rgb(194, 237, 0) 100%);  background-image: -o-linear-gradient(bottom, rgb(85, 137, 2) 0%,rgb(194, 237, 0) 100%);  background-image: -moz-linear-gradient(center bottom , rgba(178, 229, 62, 1) 0%, rgba(119, 192, 16, 1) 100%);background-image: -webkit-linear-gradient(bottom, rgb(85, 137, 2) 0%,rgb(194, 237, 0) 100%);  background-image: -ms-linear-gradient(bottom, rgb(85, 137, 2) 0%,rgb(194, 237, 0) 100%);  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(101, 151, 5)), color-stop(1, rgb(186, 237, 9)) );  -webkit-box-shadow: inset 0px 1px 0px #DCF17F, 0px 1px 0px #fff;  -moz-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;  box-shadow: inset 0px 1px 0px #D8F17F, 0px 1px 0px #fff;  -webkit-border-radius: 5px;  -moz-border-radius: 5px;  -o-border-radius: 5px;
+	border-radius: 5px;
+	min-width: 103px;
+	min-height: 21px;
+	width: 200px;
+	height: 30px;
+}
+
+input[type="submit"]{
+	background-color: rgba(204, 208, 213, 0.44);
+	content:"";
+	display:block;
+	position:absolute;
+	width:100%;
+	height:100%;
+	padding: 8px;
+	/* left:-8px; */
+	top:-8px;
+	z-index:-1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+	-moz-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+	-o-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+	box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+}
+
+input[type="submit"]{
+	padding-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 0px;
+	background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+	background-image: -moz-linear-gradient(center bottom , rgba(178, 229, 62, 1) 0%, rgba(119, 192, 16, 1) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(175, 237, 2) 0%, rgb(122, 157, 1) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(175, 237, 2) 0%, rgb(122, 157, 1) 100%);
+	background-image: -webkit-gradient(   linear,   left bottom,   left top,   color-stop(0, rgb(186, 237, 9)),   color-stop(1, rgb(101, 151, 5))   );
+}
+input[type="submit"]{color:#fff;}
+input[type="submit"]:focus{border:none;background:none;box-sizing: none;outline:none;}
+input[type="submit"]{
+background-color: rgba(204, 208, 213, 0.44)!important;
+display: block;
+position: static;
+width: auto !important;
+height: auto  !important;
+padding: 8px  !important;
+top: 10px  !important;
+margin-right: 236px  !important;
+float: right;
+z-index: -1;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+-moz-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+-o-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+}
+input[type="text"]{border: 2px solid rgba(0, 0, 0, 0.44) !important;}
+button.close{padding: 9px;float:left;}
+form div {
+    padding: 0px;
+}
+fieldset {
+    background: #fff;
+}
+#QuestionEditForm .delet {
+    margin-left: 0px;
+    background: #fff;
+    border-radius: 84px;
+    padding: 1px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FD0000;
+}
+#infoediteur {
+    margin-top: 10px;
+}
+#infoquest {
+    width: 80%;
+    height: auto;
+    clear: both;
+    margin-bottom: 3px;
+}
+.image {
+    clear: both;    box-shadow: #000 1px 1px 12px;
+    width: 251px;
+    height: 220px;
+    margin-top: 38px;
+}
+#infoquest .actions {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+#tt {
+    padding-bottom: 30px;
+}

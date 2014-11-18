@@ -1,0 +1,35 @@
+.button::-moz-focus-inner{border:0;padding:0}
+.button{display:inline;zoom:1;cursor:pointer;border:1px solid #bbb;overflow:visible;font:bold 13px arial, helvetica, sans-serif;text-decoration:none;white-space:nowrap;color:#555;background-color:#ddd;background-image:linear-gradient(top,rgba(255,255,255,1), rgba(255,255,255,0)),url(./buttons/blue.png);-webkit-transition:background-color .2s ease-out;-moz-transition:background-color .2s ease-out;-ms-transition:background-color .2s ease-out;-o-transition:background-color .2s ease-out;transition:background-color .2s ease-out;background-clip:padding-box;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-moz-box-shadow:0 1px 0 rgba(0,0,0,.3), 0 2px 2px -1px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.3) inset;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.3), 0 2px 2px -1px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.3) inset;box-shadow:0 1px 0 rgba(0,0,0,.3), 0 2px 2px -1px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.3) inset;text-shadow:0 1px 0 rgba(255,255,255,.9);-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;margin:0;padding:6px 20px}
+.button:hover{background-color:#eee;color:#555}
+.button:active{background:#e9e9e9;position:relative;top:1px;text-shadow:none;-moz-box-shadow:0 1px 1px rgba(0,0,0,.3) inset;-webkit-box-shadow:0 1px 1px rgba(0,0,0,.3) inset;box-shadow:0 1px 1px rgba(0,0,0,.3) inset}
+.button[disabled],.button[disabled]:hover,.button[disabled]:active{background:#fafafa;cursor:default;position:static;color:#999;-moz-box-shadow:none!important;-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important;border-color:#eaeaea}
+.button.small{padding:4px 12px}
+.button.large{text-transform:uppercase;padding:12px 30px}
+.button.large:active{top:2px}
+.button.color.blue{color:#fff;text-shadow:0 1px 0 rgba(0,0,0,.2);background-image:linear-gradient(top,rgba(255,255,255,.3), rgba(255,255,255,0)),url(./buttons/blue.png)}
+.button.color.green{color:#fff;text-shadow:0 1px 0 rgba(0,0,0,.2);background-image:linear-gradient(top,rgba(255,255,255,.3), rgba(255,255,255,0)),url(./buttons/green.png)}
+.button.color.red{color:#fff;text-shadow:0 1px 0 rgba(0,0,0,.2);background-image:linear-gradient(top,rgba(255,255,255,.3), rgba(255,255,255,0)),url(./buttons/red.png)}
+.button.color:hover{color:#fff;text-shadow:0 1px 0 rgba(0,0,0,.2);background-image:linear-gradient(top,rgba(255,255,255,.3), rgba(255,255,255,0)),url(./buttons/select.png)}
+.button.color.green:hover{color:#fff;text-shadow:0 1px 0 rgba(0,0,0,.2);background-image:linear-gradient(top,rgba(255,255,255,.3), rgba(255,255,255,0)),url(./buttons/green-select.png)}
+.button.color.red:hover{color:#fff;text-shadow:0 1px 0 rgba(0,0,0,.2);background-image:linear-gradient(top,rgba(255,255,255,.3), rgba(255,255,255,0)),url(./buttons/red-select.png)}
+.button.green{background-color:#57a957;border-color:#57a957}
+.button.green:hover{background-color:#62c462}
+.button.green:active{background:#57a957}
+.button.red{background-color:#c43c35;border-color:#c43c35}
+.button.red:hover{background-color:#ee5f5b}
+.button.red:active{background:#c43c35}
+.button.blue{background-color:#269CE9;border-color:#269CE9}
+.button.blue:hover{background-color:#70B9E8}
+.button.blue:active{background:#269CE9}
+.green[disabled],.green[disabled]:hover,.green[disabled]:active{background:#57A957;color:#D2FFD2;border-color:#57A957}
+.red[disabled],.red[disabled]:hover,.red[disabled]:active{background:#C43C35;color:#FFD3D3;border-color:#C43C35}
+.blue[disabled],.blue[disabled]:hover,.blue[disabled]:active{background:#269CE9;color:#93D5FF;border-color:#269CE9}
+.button-group,.button-group li{display:inline;zoom:1}
+.button-group{font-size:0;background:rgba(0,0,0,.04);border-bottom:1px solid rgba(0,0,0,.07);-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;margin:0;padding:7px}
+.button-group li{margin-right:-1px}
+.button-group .button{font-size:13px;-moz-border-radius:0;-webkit-border-radius:0;border-radius:0}
+.button-group .button:active{-moz-box-shadow:0 0 1px rgba(0,0,0,.2) inset, 5px 0 5px -3px rgba(0,0,0,.2) inset, -5px 0 5px -3px rgba(0,0,0,.2) inset;-webkit-box-shadow:0 0 1px rgba(0,0,0,.2) inset, 5px 0 5px -3px rgba(0,0,0,.2) inset, -5px 0 5px -3px rgba(0,0,0,.2) inset;box-shadow:0 0 1px rgba(0,0,0,.2) inset, 5px 0 5px -3px rgba(0,0,0,.2) inset, -5px 0 5px -3px rgba(0,0,0,.2) inset}
+.button-group li:first-child .button{-moz-border-radius:3px 0 0 3px;-webkit-border-radius:3px 0 0 3px;border-radius:3px 0 0 3px}
+.button-group li:first-child .button:active{-moz-box-shadow:0 0 1px rgba(0,0,0,.2) inset, -5px 0 5px -3px rgba(0,0,0,.2) inset;-webkit-box-shadow:0 0 1px rgba(0,0,0,.2) inset, -5px 0 5px -3px rgba(0,0,0,.2) inset;box-shadow:0 0 1px rgba(0,0,0,.2) inset, -5px 0 5px -3px rgba(0,0,0,.2) inset}
+.button-group li:last-child .button{-moz-border-radius:0 3px 3px 0;-webkit-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0}
+.button-group li:last-child .button:active{-moz-box-shadow:0 0 1px rgba(0,0,0,.2) inset, 5px 0 5px -3px rgba(0,0,0,.2) inset;-webkit-box-shadow:0 0 1px rgba(0,0,0,.2) inset, 5px 0 5px -3px rgba(0,0,0,.2) inset;box-shadow:0 0 1px rgba(0,0,0,.2) inset, 5px 0 5px -3px rgba(0,0,0,.2) inset}

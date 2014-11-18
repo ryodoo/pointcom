@@ -1,0 +1,329 @@
+/* CSS perso
+
+*/
+[class*="bit-"] {
+    float: left;
+    padding: 3px 10px 3px 10px;
+}
+.aide-active{
+	font-weight : bold;
+}
+#step2 { 
+	border: 0px;
+}
+.hidden{
+	visibility:hidden;
+}
+#blank{
+	height:40px;
+}
+.label{
+	width:30%;
+	text-align:left;
+	display: inline-block;
+	height:20px;
+	vertical-align:top;
+    //color: #48566E;
+    //font-size: 0.8em;
+}
+.condition{
+	text-align:left;
+	display: inline-block;
+	height:20px;
+	vertical-align:top;
+}
+.condition-detail{
+	width:15%;
+}
+.blank30p{
+	width:30%;
+	text-align:left;
+	display: inline-block;
+	height:1px;
+	vertical-align:top;
+}
+.error-blank30p{
+	width:30%;
+	text-align:left;
+	display: inline-block;
+	height:1px;
+	vertical-align:top;
+}
+.div_checkbox{
+	width:100%;
+	text-align:left;
+	display: inline-block;
+}
+.label-multiligne{
+	text-align:left;
+	display: inline-block;
+	width: 95%;
+}
+.input{
+	width:65%;
+	display: inline-block;
+	text-align: left;
+}
+#wrapper input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]), #wrapper select:not([type="checkbox"]), textarea {
+    background-color: #FFFFFF;
+    border: 1px solid #8BA9DC;
+    color: #48566E;
+}
+.input-multiligne{
+	width: 65%;
+	display: inline-block;
+}
+.element{
+	margin: 5px 0 0;
+}
+
+.element-multiligne{
+	margin: 5px 0 0;
+}
+.error{
+	background-color: rgba(255, 0, 0, 0.85);
+	border-radius: 0 0 30px 30px;
+	display: inline-block;
+	margin: 0 8%;
+	text-align: center;
+	width: 50%;
+}
+.error-php{
+	padding: 0 10px;
+	text-align:center;
+	width:50%;
+	display: inline-block;
+	background-color:rgba(255, 0, 0, 0.85);
+}
+fieldset {
+    background: none repeat scroll 0 0 #E0E4CC;
+    border: 1px solid #69D2E7;
+    border-radius: 6px;
+    margin: 5px;
+    min-height: 100px;
+}
+legend {
+    color: #000000; 
+    font-weight: bold;
+    float:left;
+}
+.contenu {
+    width:90%;
+    float:left;
+}
+.options {
+    width:8%;
+    float:right;
+}
+.fleches {
+    width:8%;
+    float:right;
+    padding:8px;
+}
+.popclose {
+    float:right;
+}
+.boutons{   
+	width: 100%;
+	margin: 5px 0 0;
+}
+.left{   
+	width: 50%;    
+	display: inline-block;
+	text-align: left;
+}
+.left1{   
+	width: 175px;    
+	display: inline-block;
+	text-align: left;
+}
+.right{   
+	width: 50%;
+	display: inline-block;
+	text-align: right;
+}
+.right1{   
+	width: 75%;
+	display: inline-block;
+	text-align: right;
+}
+#etape2 input:not([type="checkbox"]):not([type="radio"]):not([type="password"]):not([type="submit"]),
+#generatorTitle input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]), #wrapper select:not([type="checkbox"]) {
+    -moz-box-sizing: content-box;
+    border: 1px solid #B2B2B2;
+    border-radius: 3px 3px 3px 3px;
+    padding: 2px 2px 3px 10px;
+    transition: all 0.2s linear 0s;
+    width: 95%;
+}
+#generatorContent input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]), #wrapper select:not([type="checkbox"]) {
+    -moz-box-sizing: content-box;
+    border: 1px solid #B2B2B2;
+    border-radius: 3px 3px 3px 3px;
+    padding: 2px 2px 3px 10px;
+    transition: all 0.2s linear 0s;
+    width: 95%;
+}
+input, select {
+    outline: medium none;
+}
+@media all and (max-width:800px) {
+	#generatorContent {
+	    width: 100%;
+	}
+	.label {
+	    width: 95%;
+	}
+	.blank30p{
+		width:0%;
+	}
+	.error-blank30p{
+		width:0%;
+	}
+	.error{
+		width:80%;
+	}
+	.input {
+	    display: inline-block;
+	    width: 95%;
+	}
+	.titre {
+    		color: #000000;
+	}
+	.input-multiligne {
+	    width: 95%;
+	}
+}
+#header .inner {
+    background: none repeat scroll 0 0 #F38630;
+    color: #FFFFFF;
+    margin: 0 0 20px;
+    padding: 20px;
+}
+#header, #nav, #footer, h1, h2, h3 {
+    /* font-family: Tahoma,Geneva,sans-serif; */
+}
+#nav {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width:25%;
+}
+#nav .inner {
+    background: -webkit-linear-gradient(top,#76CF05,#2B6100);
+    color: #FFFFFF;
+    font-size: 85%;
+    padding: 1px 20px 0;
+    box-shadow: inset #222 0px 0px 16px;
+    text-align: left;
+}
+
+#nav a {
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+}
+#nav ul {
+    color: #333333;
+    list-style: none outside none;
+}
+#nav li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    padding: 7px 0 7px 10px;
+    text-decoration: none;
+}
+#content .inner {
+    background: none repeat scroll 0 0 #E0E4CC;
+    color: #333333;
+    padding: 20px;
+    margin-left:20px;
+}
+.info .inner {
+    background: none repeat scroll 0 0 #E0E4CC;
+    color: #333333;
+    padding: 5px 5px 20px 20px;
+    margin-left:20px;
+    text-align: left;
+}
+.info, #content {
+    float: right;
+    margin: 0 0 20px;
+    padding: 0;
+    width: 75%;
+}
+/* x pour fermer les div d'infos */
+.alert .close {
+    line-height: 20px;
+    position: relative;
+    right: -21px;
+    top: -2px;
+}
+button.close,button.lien {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    padding: 0;
+}
+.close {
+    color: #000000;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    opacity: 0.2;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.lien {
+    color: #000000;
+    float: right;
+    opacity: 0.5;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.lien:hover, .lien:focus, .close:hover, .close:focus {
+    color: #000000;
+    cursor: pointer;
+    opacity: 0.4;
+    text-decoration: none;
+}
+.casesoptions {
+    	width: 70%;
+	display: inline-block;
+}
+.closecondition{
+	display: inline-block;
+	padding: 0px 0px 0px 5px;
+	line-height: 14px;
+	width:40px;
+}
+.closereponse{
+	width:10%;
+	display: inline-block;
+}
+.closereponse .close{
+	line-height: 14px;
+}
+.left{
+	float: left;
+}
+.div_condition{
+    background: none repeat scroll 0 0 #E0E4EE;
+    border: 1px solid #69D2E7;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 5px 10px 2px;
+}
+.up, .down{
+ 	cursor: pointer;
+	text-align:center;
+}
+.sm li {
+    list-style: none;
+    font-size: 14px;
+}
+.sm a {
+    font-size: 14px !important;
+}
